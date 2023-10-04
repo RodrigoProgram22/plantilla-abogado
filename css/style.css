@@ -28,17 +28,17 @@ a {
 #inicio {
   scroll-margin-top: 5.4em;
 }
-#servicos {
+#servicios {
   scroll-margin-top: 5.4em;
 }
-#formacion {
+#nuestroEquipo {
   scroll-margin-top: 5.4em;
 }
 /* barra de progreso */
 .barra-progreso {
   position: fixed;
   width: 100%;
-  height: 5px;
+  height: 3px;
 }
 .progreso {
   width: 0%;
@@ -111,6 +111,11 @@ a {
   box-shadow: 0 15px 20px black;
   border: none;
   border-radius: 5px;
+}
+/* servicios */
+.img-servi{
+  width: 60px;
+  object-fit: contain;
 }
 /* pie de pagina */
 .icon-footer {
