@@ -34,6 +34,9 @@ a {
 #nuestroEquipo {
   scroll-margin-top: 5.4em;
 }
+#estudio {
+  scroll-margin-top: 5.4em;
+}
 /* barra de progreso */
 .barra-progreso {
   position: fixed;
