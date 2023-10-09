@@ -49,6 +49,12 @@ a {
   background-color: var(--primario);
 }
 /* navbar */
+nav {
+  transition: 0.7s;
+}
+.fondo-dark {
+  background-color: rgb(0, 0, 0);
+}
 .active {
   color: var(--secundario);
 }
@@ -82,6 +88,10 @@ a {
   width: 100%;
 }
 /* header */
+.backg{
+  width: 100%;
+  height: 100%;
+}
 .buttonContac {
   padding: 1.3em 3em;
   font-size: 10px;
@@ -126,11 +136,11 @@ a {
 }
 /* boton de contacto */
 .buttonContac2 {
-  padding: 1.3em 3em;
+  padding:15px 15px;
   font-size: 15px;
   letter-spacing: 2.5px;
   font-weight: 500;
-  color: #fff;
+  color: black;
   background-color: var(--primario);
   border: none;
   border-radius: 45px;
@@ -143,7 +153,7 @@ a {
 .buttonContac2:hover {
   background-color: #00bb2d;
   box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
-  color: #fff;
+  color: black;
   transform: translateY(-7px);
 }
 
@@ -172,5 +182,10 @@ a {
     width: 150px;
     object-fit: contain;
     box-shadow: 0 15px 20px black;
+  }
+}
+@media screen and (max-width: 900px) {
+  nav {
+    background-color: rgba(0, 0, 0, 0.979);
   }
 }
