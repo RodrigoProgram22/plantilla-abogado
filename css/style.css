@@ -87,6 +87,13 @@ nav {
 .btnNav:hover::before {
   width: 100%;
 }
+.titulo-nav{
+  color: var(--primario);
+  transition: all 0.5s;
+}
+.titulo-nav:hover{
+  color: var(--secundario);
+}
 /* header */
 .backg{
   width: 100%;
@@ -169,7 +176,8 @@ nav {
   transform: scale(1.1);
 }
 .secundarioFooter {
-  color: var(--secundario);
+  color: var(--primario);
+  transition: all 0.5s;
 }
 .secundarioFooter:hover {
   color: var(--secundario);
