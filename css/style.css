@@ -21,8 +21,10 @@ a {
   text-decoration: none;
 }
 .fuente1 {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: 'Vollkorn', serif;
+}
+.fuente2{
+  font-family: 'Manrope', sans-serif;
 }
 /* scroll */
 #inicio {

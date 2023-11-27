@@ -8,6 +8,15 @@
     <link rel="stylesheet" href="css/style.css" />
     <!-- Icon -->
     <link rel="icon" type="image/jpg" href="assets/logo.png" />
+    <!-- Fuentes -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Vollkorn&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200&family=Vollkorn&display=swap"
+      rel="stylesheet"
+    />
     <title>Álvarez & Asociados</title>
   </head>
   <body>
@@ -15,7 +24,7 @@
       <div class="container-fluid">
         <div>
           <img src="assets/logo.png" class="logo-img" alt="logo decorativo" />
-          <a class="navbar-brand fw-bold titulo-nav" href="#">
+          <a class="navbar-brand fw-bold titulo-nav fuente1" href="#">
             Álvarez & Asociados
           </a>
         </div>
@@ -32,7 +41,7 @@
         </button>
       </div>
       <div
-        class="collapse navbar-collapse text-center text-warning me-3"
+        class="collapse fuente2 navbar-collapse text-center text-warning me-3"
         id="navbarNav"
       >
         <ul class="navbar-nav">
@@ -85,14 +94,20 @@
     <header class="p-0 m-0 position-relative">
       <img src="assets/header.jpg" class="img-fluid backg" alt="header" />
       <div class="position-absolute top-50 start-50 translate-middle">
-        <h1 class="primario fuente1 fw-bold display-3 d-none d-md-block text-center">Álvarez y Asociados</h1>
-        <h2 class="primario fuente1 fw-bold display-5 d-none d-md-block text-center">ABOGADO</h2>
+        <h1
+          class="primario fuente1 fw-bold display-3 d-none d-md-block text-center"
+        >
+          Álvarez & Asociados
+        </h1>
+        <h2
+          class="primario fuente2 fw-bold display-5 d-none d-md-block text-center"
+        >
+          ABOGADO
+        </h2>
       </div>
     </header>
     <section class="container">
-      <div
-        class="row row-cols-1 row-cols-md-2 g-4 p-4 justify-content-center"
-      >
+      <div class="row row-cols-1 row-cols-md-2 g-4 p-4 justify-content-center">
         <div class="col text-center text-md-end">
           <img
             src="assets/decorativo.jpg"
@@ -102,14 +117,14 @@
         </div>
         <div class="col secundario">
           <h1 class="fuente1 my-3">José Álvarez, Abogado.</h1>
-          <p class="w-75">
+          <p class="w-75 feunte2">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam
             facere autem temporibus tempora rerum sed enim expedita nobis velit,
             ex, quaerat nostrum eum sit assumenda nesciunt, cupiditate corrupti
             libero beatae. Maiores, eos minus hic incidunt possimus laborum?
             Error commodi.
           </p>
-          <p class="w-75">
+          <p class="w-75 feunte2">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam
             facere autem temporibus tempora rerum sed enim expedita nobis velit,
             ex, quaerat nostrum eum sit assumenda nesciunt, cupiditate corrupti
@@ -125,8 +140,8 @@
       </div>
     </section>
     <section id="servicios">
-      <div class="container text-start fuente1 my-5 secundario">
-        <h2 class="text-center">Mis Servicios</h2>
+      <div class="container text-start my-5 secundario">
+        <h2 class="text-center fuente1">Mis Servicios</h2>
       </div>
       <div class="container secundario">
         <div class="row row-cols-1 row-cols-md-2 g-4">
@@ -136,8 +151,10 @@
                 <img src="assets/logo.png" class="img-servi" alt="logo" />
               </div>
               <div class="col-8">
-                <h5>Especialista en Derecho Laboral en la UBA.</h5>
-                <p>
+                <h5 class="fuente1">
+                  Especialista en Derecho Laboral en la UBA.
+                </h5>
+                <p class="fuente2">
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                   Molestias vel inventore, facilis placeat voluptas,
                   consequuntur libero ab similique nam optio laboriosam at
@@ -152,8 +169,8 @@
                 <img src="assets/logo.png" class="img-servi" alt="logo" />
               </div>
               <div class="col-8">
-                <h5>Derecho Penal.</h5>
-                <p>
+                <h5 class="fuente1">Derecho Penal.</h5>
+                <p class="fuente2">
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                   Molestias vel inventore, facilis placeat voluptas,
                   consequuntur libero ab similique nam optio laboriosam at
@@ -168,8 +185,8 @@
                 <img src="assets/logo.png" class="img-servi" alt="logo" />
               </div>
               <div class="col-8">
-                <h5>Derecho Empresario y Societario.</h5>
-                <p>
+                <h5 class="fuente1">Derecho Empresario y Societario.</h5>
+                <p class="fuente2">
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                   Molestias vel inventore, facilis placeat voluptas,
                   consequuntur libero ab similique nam optio laboriosam at
@@ -184,8 +201,8 @@
                 <img src="assets/logo.png" class="img-servi" alt="logo" />
               </div>
               <div class="col-8">
-                <h5>Derecho Penal.</h5>
-                <p>
+                <h5 class="fuente1">Derecho Penal.</h5>
+                <p class="fuente2">
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                   Molestias vel inventore, facilis placeat voluptas,
                   consequuntur libero ab similique nam optio laboriosam at
@@ -198,13 +215,15 @@
       </div>
     </section>
     <section class="container" id="nuestroEquipo">
-      <div class="container text-start fuente1 my-5 secundario">
-        <h2 class="text-center">Nuestro Equipo</h2>
+      <div class="container text-start my-5 secundario">
+        <h2 class="text-center fuente1">Nuestro Equipo</h2>
       </div>
-      <div class="row row-cols-1 row-cols-md-2 g-4 px-4 justify-content-center align-items-center">
-        <div class="col secundario text-center ">
+      <div
+        class="row row-cols-1 row-cols-md-2 g-4 px-4 justify-content-center align-items-center"
+      >
+        <div class="col secundario text-center">
           <h4 class="fuente1 my-2">PROFESIONALES DEDICADOS A AYUDARTE</h4>
-          <p class="px-5">
+          <p class="px-5 fuente2">
             Nuestro equipo de trabajo esta compuesto por profesionales de alto
             nivel profesional, con el cual también atendemos los casos de
             derecho de familia y sucesiones , Divorcios Express, Derecho
@@ -221,10 +240,10 @@
       </div>
     </section>
     <section id="estudio" class="container">
-      <div class="container text-start fuente1 my-5 secundario">
-        <h2 class="text-center">Estudio Jurídico</h2>
+      <div class="container text-start my-5 secundario">
+        <h2 class="text-center fuente1">Estudio Jurídico</h2>
       </div>
-      <div class="px-5 justify-content-center secundario">
+      <div class="px-5 justify-content-center secundario fuente2">
         <ul>
           <li class="my-3">
             El estudio se caracteriza por la honestidad con el cliente y la
@@ -252,18 +271,18 @@
           <div class="col d-none d-md-block text-center">
             <i class="bi bi-person-lines-fill icon-contacto primario"></i>
           </div>
-          <div class="col fuente1 secundario">
+          <div class="col fuente2 secundario">
             <h3>Contáctame Ahora!</h3>
             <p>Numero de telefono: +54 3865 XXXXXX</p>
             <p>Correo: ejemplo@hotmail.com.ar</p>
             <p>Disponible de Lunes a Viernes.</p>
           </div>
-          <div class="col fuente1 text-center">
+          <div class="col text-center">
             <a
               href="https://api.whatsapp.com/send?phone=543865343521&text=Hola%20soy%20Rodrigo."
               target="_blank"
             >
-              <button class="buttonContac2 fw-bold">
+              <button class="buttonContac2 fw-bold fuente2">
                 Enviar WhatssApp
               </button>
             </a>
@@ -272,7 +291,7 @@
       </div>
     </section>
     <footer id="piePag">
-      <div class="container-fluid secundario p-3">
+      <div class="container-fluid secundario fuente2 p-3">
         <div class="row row-cols-1 row-cols-md-3 g-4 align-items-center">
           <div class="col colPiePag text-center">
             <div class="row">
@@ -309,54 +328,34 @@
                 </a>
               </div>
             </div>
-            <p class="fuente1 fw-bold my-2 my-3">Mantente en contacto</p>
-            <p class="fuente1 fw-bold my-2">
-              Siguenos en nuestras redes sociales
-            </p>
+            <p class="my-2 my-3">Mantente en contacto</p>
+            <p class="my-2">Siguenos en nuestras redes sociales</p>
           </div>
           <div class="col text-center">
             <img src="assets/logo.png" class="logo-img" alt="logo decorativo" />
-            <p class="fuente1 primario fw-bold">Álvarez y Asociados</p>
-            <p class="fuente1 fw-bold">ejemplo@gmail.com</p>
-            <p class="fuente1">+54 3865 XXXXXX</p>
+            <p class="primario">Álvarez y Asociados</p>
+            <p>ejemplo@gmail.com</p>
+            <p>+54 3865 XXXXXX</p>
           </div>
           <div class="col text-center">
             <div class="container my-2">
-              <a class="fuente1 fw-bold my-1 btnNav active py-1" href="#">
-                Inicio
-              </a>
+              <a class="my-1 btnNav active py-1" href="#"> Inicio </a>
             </div>
             <div class="container my-2">
-              <a
-                class="fuente1 fw-bold my-1 btnNav active py-1"
-                href="#servicios"
-              >
+              <a class="my-1 btnNav active py-1" href="#servicios">
                 Servicios
               </a>
             </div>
             <div class="container my-2">
-              <a
-                class="fuente1 fw-bold my-1 btnNav active py-1"
-                href="#nuestroEquipo"
-              >
+              <a class="my-1 btnNav active py-1" href="#nuestroEquipo">
                 Equipo
               </a>
             </div>
             <div class="container my-2">
-              <a
-                class="fuente1 fw-bold my-1 btnNav active py-1"
-                href="#estudio"
-              >
-                Estudio
-              </a>
+              <a class="my-1 btnNav active py-1" href="#estudio"> Estudio </a>
             </div>
             <div class="container my-2">
-              <a
-                class="fuente1 fw-bold my-1 btnNav active py-1"
-                href="#contacto"
-              >
-                Contacto
-              </a>
+              <a class="my-1 btnNav active py-1" href="#contacto"> Contacto </a>
             </div>
           </div>
         </div>
